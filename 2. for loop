@@ -1,0 +1,25 @@
+dic = {"user" : "koo", "pwd" : 123}
+for i in dic:
+    print(i, dic[i])
+
+for j in dic:
+    print(j)
+    print(dic[j])
+
+for k in dic:
+    print(k)
+    print(dic)
+
+lst = [10,20,30,40]
+for l in lst:
+    print(l)
+
+name = "Tamil"
+for i in name:
+    print(i)
+
+for m in range(0,10):
+    print(m)
+
+for n in range(0, 10, 2):
+    print(n)
