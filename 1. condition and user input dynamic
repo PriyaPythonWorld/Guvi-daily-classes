@@ -1,0 +1,13 @@
+Signal = input("Enter your signal: ")
+
+# Signal = "green"
+
+if Signal == "red":
+    print("Stop")
+elif Signal == "yellow":
+    print("ready")
+elif Signal == "green":
+    print("Go")
+else:
+    print("no choice")
+
