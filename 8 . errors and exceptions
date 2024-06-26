@@ -1,0 +1,47 @@
+# common errors in python
+
+# 1. syntax error
+price = 100
+if(price>100)
+    print("i can purchase")
+--------------------------------------------------------------------------------
+    if(price>100)
+                 ^
+SyntaxError: expected ':'
+--------------------------------------------------------------------------------
+# 2. logical error
+cost = 10000
+x = cost / 0
+print(x)
+---------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Priya\PycharmProjects\pythonGuvi\3 errors.py", line 10, in <module>
+    x = cost / 0
+        ~~~~~^~~
+ZeroDivisionError: division by zero
+---------------------------------------------------------------------------------------
+
+# 3. Handling errors
+# Try exception
+
+try:
+    print("program start")
+    print(1/0)
+except:
+    print("there is an error")
+print("run remaining syntax")
+------------------------------------
+program start
+there is an error
+run remaining syntax
+------------------------------------
+
+try:
+    x = int(input("Enter your number: "))
+except ValueError:
+    print("That was not valid number.")
+
+-------------------------------------------
+Enter your number: j
+That was not valid number.
+-------------------------------------------
