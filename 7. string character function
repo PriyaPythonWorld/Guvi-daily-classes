@@ -1,0 +1,25 @@
+name = "thillai murali"
+
+print(name.upper())     # all in uppercase
+
+print(name.split(' '))  # split one name as two or more
+
+print(name.capitalize())    # capitalize first letter
+
+print(name.find('i'))      # find first i given and return its index position
+
+print(name.islower())       # find it is lower or not and return true or false
+
+print(name.count('i'))      # return how many times i occured
+
+nameNew = " thillai murali "
+print(name.strip(''))   # remove spaces from front and back
+
+print(name.index("a"))  # if we give a letter, it will return index number
+
+print(name.join('zx')) # given string will join front and back
+
+
+
+
+
