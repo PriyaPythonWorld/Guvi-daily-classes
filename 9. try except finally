@@ -1,0 +1,9 @@
+try:
+    print("program start")
+    print(1/0)
+
+except:
+    print("there is an error")
+
+finally:
+    print("if error run this statement")
