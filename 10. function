@@ -1,0 +1,7 @@
+def add(x, y):
+    z = x + y
+    return z
+
+result = add(1,2)
+print(result)
+print(add(10, 20))
