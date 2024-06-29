@@ -1,0 +1,10 @@
+def join(fname, lname):
+    result = fname +" "+ lname
+    return result
+
+joinfl = join("thillai","murali")
+print(joinfl)
+
+print(join("thillai","murali"))
+
+
