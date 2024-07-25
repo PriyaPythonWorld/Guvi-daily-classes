@@ -1,0 +1,15 @@
+class Personal():
+    def education(self,ten,twelve):
+        self.tenthMark = ten
+        self.twelthMark = twelve
+        print(f"10th Mark:  {self.tenthMark} , Twelth Mark:  {self.twelthMark} ")
+    def workExp(self, mnc1, mnc2):
+        self.mnc1 = mnc1
+        self.mnc2 = mnc2
+        print(f"MNC1: {self.mnc1}, MNC2:  {self.mnc2}")
+obj = Personal()
+obj.education(95,99)
+obj1 = Personal()
+obj1.workExp(1,2)
+
+#------------------------------------------------------------------------------------------
