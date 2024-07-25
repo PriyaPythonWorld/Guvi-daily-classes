@@ -1,0 +1,9 @@
+class personal:
+    def education(self, sslc, hsc):
+        print(sslc, hsc)
+    def experience(self, mnc1, mnc2):
+        print(mnc1, mnc2)
+
+obj = personal()
+obj.education(98,97)
+obj.experience(2,3)
